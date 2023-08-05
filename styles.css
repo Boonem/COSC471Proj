@@ -1,0 +1,44 @@
+table, th, td {
+  border: 3px solid black;
+}
+
+th, td {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+	width:70%;
+	height:30%;
+	padding:20px;
+}
+
+.container-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 50%;
+    height: 200px;
+    outline: solid 5px black;
+  }
+
+.db-gui-panel {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: fit-content;
+    height: fit-content;
+    outline: solid 5px black;
+  }
+
+
+.vert-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
